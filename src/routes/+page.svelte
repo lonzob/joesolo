@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>JoeSolo — Solo Strategy for Independent Professionals</title>
+	<title>JoeSolo — Record Producer, songwriter, composer, and music industry speaker</title>
 	<meta name="description" content="JoeSolo helps independent professionals build sustainable solo businesses." />
 </svelte:head>
 
@@ -12,7 +12,7 @@
 	<section class="flex flex-col items-center justify-center min-h-screen px-6 text-center">
 		<h1 class="text-5xl font-bold tracking-tight mb-4">JoeSolo</h1>
 		<p class="text-xl text-gray-500 max-w-xl mb-8">
-			Strategy and tools for independent professionals who work alone — and win alone.
+			Record Producer, songwriter, composer, and music industry speaker
 		</p>
 		<a
 			href="mailto:{email}"

@@ -1,5 +1,12 @@
 <script lang="ts">
-	const email = 'ceo@joesolo.com';
+	import { onMount } from 'svelte';
+
+	let href = '#';
+
+	onMount(() => {
+		const parts = ['ceo', 'joesolo', 'com'];
+		href = `mailto:${parts[0]}@${parts[1]}.${parts[2]}`;
+	});
 </script>
 
 <svelte:head>
@@ -15,7 +22,7 @@
 			Record Producer, songwriter, composer, and music industry speaker
 		</p>
 		<a
-			href="mailto:{email}"
+			{href}
 			class="inline-block bg-black text-white px-8 py-3 rounded-full text-sm font-medium hover:bg-gray-800 transition-colors"
 		>
 			Get in touch

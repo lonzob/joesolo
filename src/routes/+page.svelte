@@ -4,7 +4,7 @@
 
 <svelte:head>
 	<title>JoeSolo — Record Producer, songwriter, composer, and music industry speaker</title>
-	<meta name="description" content="JoeSolo helps independent professionals build sustainable solo businesses." />
+	<meta name="description" content="Joe Solo helps music professionals build their careers." />
 </svelte:head>
 
 <main class="min-h-screen bg-white text-gray-900">
